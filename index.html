@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="all.css" />
+  </head>
+  <body class="dont">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #603601">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#">Coffee Day</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active current-page" aria-current="page" href="#">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="about-us.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Alert -->
+    <div class="container" style="width: 800px">
+      <div id="" class="alert alert-success text-center alert-1" role="alert" style="margin-top: 10px; margin-bottom: 50px">New Arrival on February 2022, check it out!</div>
+    </div>
+
+    <!-- Menus -->
+    <div class="container mb-1">
+      <div class="row gy-5 justify-content-center">
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Affogato.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Affogato</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AffogatoModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Cafe de Olla 2.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Cafe de Olla</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CafedeOllaModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Einspänner 2.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Einspänner</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EinspännerModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Kaffeost 2.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Kaffeost</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#KaffeostModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Kopi Joss.jpeg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Joss Coffee</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#JossModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Mazagran 2.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Mazagran</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MazagranModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Pharisäer Kaffee 2.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Pharisäer Kaffee</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PharisäerModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 d-flex justify-content-center">
+          <div class="card p-2" style="width: 14rem; border-radius: 10px">
+            <img src="images/Türk Kahvesi 2.jpg" class="card-img-top" alt="..." / style="border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title">Türk Kahvesi</h5>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TürkKahvesiModal">Check It Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="AffogatoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Affogato</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Affogato.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-sun fs-1 mx-2"></i>
+                <i class="fa-solid fa-cloud-moon fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="CafedeOllaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cafe de Olla</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Cafe de Olla 2.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+                <i class="fa-regular fa-face-meh fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-solid fa-cloud-showers-heavy fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="EinspännerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Einspänner</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Einspänner 2.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+                <i class="fa-regular fa-face-meh fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-sun fs-1 mx-2"></i>
+                <i class="fa-solid fa-cloud-moon fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="KaffeostModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Kaffeost</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Kaffeost 2.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+                <i class="fa-regular fa-face-meh fs-1 mx-2"></i>
+                <i class="fa-solid fa-face-sleeping fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-snowflake fs-1 mx-2"></i>
+                <i class="fa-solid fa-cloud-moon fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="JossModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Joss Coffee</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Kopi Joss.jpeg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+                <i class="fa-regular fa-face-grimace fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-solid fa-cloud-moon fs-1 mx-2"></i>
+                <i class="fa-solid fa-cloud-showers-heavy fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="MazagranModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Mazagran</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Mazagran 2.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+                <i class="fa-regular fa-face-laugh-beam fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center"><i class="fa-regular fa-sun fs-1 mx-2"></i><i <i class="fa-solid fa-cloud-showers-heavy fs-1 mx-2"></i></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="PharisäerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Pharisäer Kaffee</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Pharisäer Kaffee 2.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-sun fs-1 mx-2"></i>
+                <i class="fa-solid fa-cloud-moon fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="TürkKahvesiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Türk Kahvesi</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="border-radius: 10px">
+            <!-- <div class="row justify-content-center">
+            </div> -->
+            <div class="d-flex justify-content-center">
+              <img src="images/Türk Kahvesi 2.jpg" alt="" style="width: 400px; border-radius: 10px" />
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center text-center">
+              <h5>Good Coffee When You're Feeling</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-regular fa-face-smile fs-1 mx-2"></i>
+                <i class="fa-regular fa-face-grimace fs-1 mx-2"></i>
+              </div>
+              <h5>Good Coffee When The Weather Is</h5>
+              <div class="d-flex p-2 bd-highlight justify-content-center">
+                <i class="fa-solid fa-cloud-moon fs-1 mx-2"></i>
+                <i class="fa-solid fa-cloud-showers-heavy fs-1 mx-2"></i>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <!-- <div class="container-fluid bg-primary" style="margin-top: 100px; color: white">
+      <div class="container py-5" style="width: 1000px; border-radius: 10px">
+        <h3 class="text-center mb-5">Got any question or suggestion? Let me know below 😊</h3>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <form>
+              <div class="mb-3">
+                <label for="InputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Insert your email here" />
+              </div>
+              <div class="mb-3">
+                <label for="InputFeedback" class="form-label">Feedback</label>
+                <textarea class="form-control" placeholder="Insert your feedback here" name="" id="" style="height: 100px"></textarea>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="btn btn-primary btn-outline-light">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="container p-5 my-5" style="background-color: antiquewhite; border-radius: 10px">
+            <h3 class="text-center mb-5">Got any question or suggestion? Let me know below 😊</h3>
+            <form>
+              <div class="mb-3">
+                <label for="InputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Insert your email here" />
+              </div>
+              <div class="mb-3">
+                <label for="InputFeedback" class="form-label">Feedback</label>
+                <textarea class="form-control" placeholder="Insert your feedback here" name="" id=""></textarea>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="btn btn-primary btn-outline-light" id="sendEmailBtn">Send</button>
+                </div>
+              </div>  
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- <div class="d-flex flex-column" style="height: 100px">
+      <footer class="mt-auto">
+        <div class="container">Copyright © 2022</div>
+      </footer>
+    </div> -->
+    <footer class="d-flex justify-content-center" style="padding-top: 10px; background-color: #603601; color: white">
+      <h5>Coffee Day</h5>
+      <p class="mx-2">Copyright © 2022</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
